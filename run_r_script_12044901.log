@@ -1,0 +1,54 @@
+Rscript example_35.R
+Loading required package: beautier
+Loading required package: babette
+Loading required package: beastier
+Loading required package: mauricer
+Loading required package: tracerer
+Registered S3 method overwritten by 'pryr':
+  method      from
+  print.bytes Rcpp
+Error in .External2(C_X11, paste0("png::", filename), g$width, g$height,  : 
+  unable to start device PNG
+Calls: ggsave -> dev -> <Anonymous>
+In addition: Warning message:
+In grDevices::png(..., res = dpi, units = "in") :
+  unable to open connection to X11 display ''
+Execution halted
+
+
+###############################################################################
+Peregrine Cluster
+Job 12044901 for user 'p230198'
+Finished at: Fri Jun 12 01:58:46 CEST 2020
+
+Job details:
+============
+
+Name                : run_r_script
+User                : p230198
+Partition           : regular
+Nodes               : pg-node203
+Cores               : 1
+State               : FAILED
+Submit              : 2020-06-10T07:51:00
+Start               : 2020-06-10T07:51:01
+End                 : 2020-06-12T01:58:46
+Reserved walltime   : 10-00:00:00
+Used walltime       : 1-18:07:45
+Used CPU time       : 1-14:32:12 (efficiency: 91.47%)
+% User (Computation): 94.50%
+% System (I/O)      :  5.50%
+Mem reserved        : 10G/node
+Max Mem used        : 1.51G (pg-node203)
+Max Disk Write      : 112.64K (pg-node203)
+Max Disk Read       : 2.29M (pg-node203)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/additional_information/scientific_output
+
+################################################################################
