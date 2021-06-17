@@ -64,8 +64,7 @@ if (is_testing) {
 
 # Save summary
 pir_plots(pir_outs) +
-  ggtitle(paste("Number of replicates: ", n_phylogenies)) +
-  ggsave("errors.png", width = 7, height = 7)
+  ggtitle(paste("Number of replicates: ", n_phylogenies)); ggsave("errors.png", width = 7, height = 7)
 
 # Save individual runs
 expect_equal(length(pir_paramses), length(pir_outs))
